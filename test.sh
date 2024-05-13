@@ -3,6 +3,6 @@
 set -ex
 
 cargo test --all
-cargo test --all -F js
+cargo test --all --features js
 wasm-pack test --node
-wasm-pack test --node -F js
+wasm-pack test --node --features js
